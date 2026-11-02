@@ -1,0 +1,2715 @@
+{
+ "generatedAtMs": 1792698480893,
+ "model": "samsung SM-S928U1 (e3q)",
+ "build": "CP2A.260605.016.S928U1UEU6EZIF",
+ "sdk": 37,
+ "notes": [
+  "No camera advertises ULTRA_HIGH_RESOLUTION_SENSOR: full 200 MP readout is not available to this app.",
+  "COLOR_CORRECTION_MODE_CCT not offered: Kelvin white balance is an approximation via RGGB gains.",
+  "No AE priority modes: shutter priority is implemented app-side (closed-loop ISO).",
+  "Physical sub-cameras readable by this app: 5, 6, 7.",
+  "Dynamic range profiles: STANDARD, HLG10 — no HDR10\/HDR10+\/Dolby Vision capture path.",
+  "Samsung Log: no public API is documented; native Log capture is not offered."
+ ],
+ "lenses": [
+  {
+   "key": "back:0:0.6×",
+   "label": "0.6×",
+   "role": "ULTRA_WIDE",
+   "facing": 1,
+   "logicalId": "0",
+   "physicalId": "2",
+   "zoomRatio": 0.6106122136116028,
+   "equivFocalMm": 13.598074913024902,
+   "evidence": "physical 2 of 0: 2.2 mm, 14 mm-eq"
+  },
+  {
+   "key": "back:0:1",
+   "label": "1×",
+   "role": "MAIN",
+   "facing": 1,
+   "logicalId": "0",
+   "physicalId": null,
+   "zoomRatio": 1,
+   "equivFocalMm": 22.269575119018555,
+   "evidence": "camera 0 default (6.3 mm)"
+  },
+  {
+   "key": "back:0:3×",
+   "label": "3×",
+   "role": "TELE",
+   "facing": 1,
+   "logicalId": "0",
+   "physicalId": "6",
+   "zoomRatio": 2.740816116333008,
+   "equivFocalMm": 61.03681182861328,
+   "evidence": "physical 6 of 0: 7.9 mm, 61 mm-eq"
+  },
+  {
+   "key": "back:0:5×",
+   "label": "5×",
+   "role": "TELE",
+   "facing": 1,
+   "logicalId": "0",
+   "physicalId": "7",
+   "zoomRatio": 5.061224460601807,
+   "equivFocalMm": 112.71131896972656,
+   "evidence": "physical 7 of 0: 18.6 mm, 113 mm-eq"
+  },
+  {
+   "key": "front:1",
+   "label": "Front",
+   "role": "FRONT",
+   "facing": 0,
+   "logicalId": "1",
+   "physicalId": null,
+   "zoomRatio": 1,
+   "equivFocalMm": 25.496389389038086,
+   "evidence": "camera 1"
+  }
+ ],
+ "camera2": [
+  {
+   "id": "0",
+   "physicalOnly": false,
+   "parent": null,
+   "facing": "BACK",
+   "hardwareLevel": "LEVEL_3",
+   "capabilities": [
+    "BACKWARD_COMPATIBLE",
+    "CONSTRAINED_HIGH_SPEED_VIDEO",
+    "RAW",
+    "YUV_REPROCESSING",
+    "PRIVATE_REPROCESSING",
+    "READ_SENSOR_SETTINGS",
+    "MANUAL_SENSOR",
+    "BURST_CAPTURE",
+    "MANUAL_POST_PROCESSING",
+    "STREAM_USE_CASE",
+    "DYNAMIC_RANGE_TEN_BIT",
+    "COLOR_SPACE_PROFILES",
+    "LOGICAL_MULTI_CAMERA"
+   ],
+   "physicalIds": [
+    "2",
+    "5",
+    "6",
+    "7"
+   ],
+   "sensor": {
+    "iso": "12-3200",
+    "exposureNs": "82896-117413040",
+    "maxFrameDurationNs": 254991000,
+    "physicalSizeMm": "9.792x7.344",
+    "pixelArray": "4080x3060",
+    "pixelArrayMaxRes": null,
+    "cfa": "GBRG"
+   },
+   "lens": {
+    "focalMm": [
+     6.300000190734863
+    ],
+    "apertures": [
+     1.7000000476837158
+    ],
+    "equivMm": 22.269575119018555,
+    "minFocusDiopters": 10,
+    "focusCalibration": "APPROXIMATE",
+    "ois": true
+   },
+   "streams": {
+    "jpeg": [
+     "4080x3060",
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "2992x2992",
+     "3840x2160",
+     "3648x2052",
+     "2736x2736",
+     "4000x1848",
+     "4000x1716",
+     "3648x1704",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "yuv": [
+     "4080x3060",
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "2992x2992",
+     "3840x2160",
+     "3648x2052",
+     "2736x2736",
+     "4000x1848",
+     "4000x1716",
+     "3648x1704",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "priv": [
+     "4080x3060",
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "2992x2992",
+     "3840x2160",
+     "3648x2052",
+     "2736x2736",
+     "4000x1848",
+     "4000x1716",
+     "3648x1704",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "raw": [
+     "4080x3060"
+    ],
+    "heic": [],
+    "jpegR": [
+     "4080x3060",
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "2992x2992",
+     "3840x2160",
+     "3648x2052",
+     "2736x2736",
+     "4000x1848",
+     "4000x1716",
+     "3648x1704",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "maxResJpeg": [],
+    "maxResRaw": [],
+    "highSpeed": [
+     {
+      "size": "1280x720",
+      "fps": [
+       "30-120",
+       "120-120",
+       "30-240",
+       "240-240"
+      ]
+     },
+     {
+      "size": "1920x1080",
+      "fps": [
+       "30-120",
+       "120-120",
+       "30-240",
+       "240-240"
+      ]
+     },
+     {
+      "size": "1920x824",
+      "fps": [
+       "30-120",
+       "120-120"
+      ]
+     }
+    ]
+   },
+   "zoomRatioRange": "0.6-10.0",
+   "maxDigitalZoom": 8,
+   "evRange": "-20-20",
+   "evStep": 0.10000000149011612,
+   "aeFpsRanges": [
+    "15-15",
+    "24-24",
+    "15-30",
+    "30-30",
+    "15-60",
+    "60-60"
+   ],
+   "afModes": [
+    "OFF",
+    "AUTO",
+    "MACRO",
+    "CONTINUOUS_VIDEO",
+    "CONTINUOUS_PICTURE"
+   ],
+   "awbModes": [
+    "AUTO",
+    "INCANDESCENT",
+    "FLUORESCENT",
+    "DAYLIGHT",
+    "CLOUDY_DAYLIGHT",
+    "OFF"
+   ],
+   "aeModes": [
+    "OFF",
+    "ON",
+    "ON_AUTO_FLASH",
+    "ON_ALWAYS_FLASH"
+   ],
+   "colorCorrectionModes": [
+    0,
+    1,
+    2
+   ],
+   "aePriorityModes": [
+    0
+   ],
+   "videoStabModes": [
+    "OFF",
+    "ON",
+    "PREVIEW_STABILIZATION"
+   ],
+   "flash": true,
+   "dynamicRangeProfiles": [
+    "STANDARD",
+    "HLG10"
+   ],
+   "colorSpaces": [
+    "SRGB",
+    "DISPLAY_P3",
+    "BT2020_HLG"
+   ],
+   "extensions": [
+    "FACE_RETOUCH",
+    "BOKEH",
+    "NIGHT"
+   ],
+   "sessionProbes": [
+    {
+     "name": "all",
+     "result": "NOT_TESTED",
+     "detail": "CameraDeviceSetup unsupported for 0"
+    }
+   ]
+  },
+  {
+   "id": "5",
+   "physicalOnly": true,
+   "parent": "0",
+   "facing": "BACK",
+   "hardwareLevel": "LEVEL_3",
+   "capabilities": [
+    "BACKWARD_COMPATIBLE",
+    "CONSTRAINED_HIGH_SPEED_VIDEO",
+    "RAW",
+    "YUV_REPROCESSING",
+    "PRIVATE_REPROCESSING",
+    "READ_SENSOR_SETTINGS",
+    "MANUAL_SENSOR",
+    "BURST_CAPTURE",
+    "MANUAL_POST_PROCESSING",
+    "STREAM_USE_CASE",
+    "DYNAMIC_RANGE_TEN_BIT",
+    "COLOR_SPACE_PROFILES"
+   ],
+   "physicalIds": [],
+   "sensor": {
+    "iso": "12-3200",
+    "exposureNs": "43220-254947000",
+    "maxFrameDurationNs": 254991000,
+    "physicalSizeMm": "9.792x7.344",
+    "pixelArray": "4080x3060",
+    "pixelArrayMaxRes": "4080x3060",
+    "cfa": "GBRG"
+   },
+   "lens": {
+    "focalMm": [
+     6.300000190734863
+    ],
+    "apertures": [
+     1.7000000476837158
+    ],
+    "equivMm": 22.269575119018555,
+    "minFocusDiopters": 10,
+    "focusCalibration": "APPROXIMATE",
+    "ois": true
+   },
+   "streams": {
+    "jpeg": [
+     "4080x3060",
+     "4080x3060",
+     "4000x3000",
+     "4000x3000",
+     "4000x2252",
+     "4000x2252",
+     "2992x2992",
+     "3840x2160",
+     "4000x1848",
+     "4000x1716",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "yuv": [
+     "4080x3060",
+     "4080x3060",
+     "4000x3000",
+     "4000x3000",
+     "4000x2252",
+     "4000x2252",
+     "2992x2992",
+     "3840x2160",
+     "4000x1848",
+     "4000x1716",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "priv": [
+     "4080x3060",
+     "4080x3060",
+     "4000x3000",
+     "4000x3000",
+     "4000x2252",
+     "4000x2252",
+     "2992x2992",
+     "3840x2160",
+     "4000x1848",
+     "4000x1716",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "raw": [
+     "4080x3060"
+    ],
+    "heic": [],
+    "jpegR": [],
+    "maxResJpeg": [],
+    "maxResRaw": [],
+    "highSpeed": [
+     {
+      "size": "1280x720",
+      "fps": [
+       "30-120",
+       "120-120",
+       "30-240",
+       "240-240"
+      ]
+     },
+     {
+      "size": "1920x1080",
+      "fps": [
+       "30-120",
+       "120-120",
+       "30-240",
+       "240-240"
+      ]
+     },
+     {
+      "size": "1920x824",
+      "fps": [
+       "30-120",
+       "120-120"
+      ]
+     }
+    ]
+   },
+   "zoomRatioRange": "1.0-8.0",
+   "maxDigitalZoom": 8,
+   "evRange": "-20-20",
+   "evStep": 0.10000000149011612,
+   "aeFpsRanges": [
+    "15-15",
+    "24-24",
+    "15-30",
+    "30-30",
+    "15-60",
+    "60-60"
+   ],
+   "afModes": [
+    "OFF",
+    "AUTO",
+    "MACRO",
+    "CONTINUOUS_VIDEO",
+    "CONTINUOUS_PICTURE"
+   ],
+   "awbModes": [
+    "AUTO",
+    "INCANDESCENT",
+    "FLUORESCENT",
+    "DAYLIGHT",
+    "CLOUDY_DAYLIGHT",
+    "OFF"
+   ],
+   "aeModes": [
+    "OFF",
+    "ON",
+    "ON_AUTO_FLASH",
+    "ON_ALWAYS_FLASH"
+   ],
+   "colorCorrectionModes": [
+    0,
+    1,
+    2
+   ],
+   "aePriorityModes": [],
+   "videoStabModes": [
+    "OFF",
+    "ON",
+    "PREVIEW_STABILIZATION"
+   ],
+   "flash": true,
+   "dynamicRangeProfiles": [
+    "STANDARD",
+    "HLG10"
+   ],
+   "colorSpaces": [
+    "SRGB",
+    "DISPLAY_P3",
+    "BT2020_HLG"
+   ],
+   "extensions": [
+    "FACE_RETOUCH",
+    "BOKEH",
+    "NIGHT"
+   ],
+   "sessionProbes": [
+    {
+     "name": "all",
+     "result": "NOT_TESTED",
+     "detail": "CameraDeviceSetup unsupported for 0"
+    }
+   ]
+  },
+  {
+   "id": "6",
+   "physicalOnly": true,
+   "parent": "0",
+   "facing": "BACK",
+   "hardwareLevel": "LIMITED",
+   "capabilities": [
+    "BACKWARD_COMPATIBLE",
+    "CONSTRAINED_HIGH_SPEED_VIDEO",
+    "RAW",
+    "MANUAL_SENSOR",
+    "MANUAL_POST_PROCESSING",
+    "PRIVATE_REPROCESSING",
+    "READ_SENSOR_SETTINGS",
+    "BURST_CAPTURE",
+    "DYNAMIC_RANGE_TEN_BIT",
+    "STREAM_USE_CASE",
+    "COLOR_SPACE_PROFILES"
+   ],
+   "physicalIds": [],
+   "sensor": {
+    "iso": "50-3200",
+    "exposureNs": "53848-150004560",
+    "maxFrameDurationNs": 150090720,
+    "physicalSizeMm": "4.48x3.36",
+    "pixelArray": "4000x3000",
+    "pixelArrayMaxRes": null,
+    "cfa": "GRBG"
+   },
+   "lens": {
+    "focalMm": [
+     7.900000095367432
+    ],
+    "apertures": [
+     2.4000000953674316
+    ],
+    "equivMm": 61.03681182861328,
+    "minFocusDiopters": 2.5,
+    "focusCalibration": "APPROXIMATE",
+    "ois": true
+   },
+   "streams": {
+    "jpeg": [
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "3840x2160",
+     "3840x2160",
+     "3648x2052",
+     "2736x2736",
+     "3648x1704",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "yuv": [
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "3840x2160",
+     "3840x2160",
+     "3648x2052",
+     "2736x2736",
+     "3648x1704",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "priv": [
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "3840x2160",
+     "3840x2160",
+     "3648x2052",
+     "2736x2736",
+     "3648x1704",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "raw": [
+     "4000x3000"
+    ],
+    "heic": [],
+    "jpegR": [],
+    "maxResJpeg": [],
+    "maxResRaw": [],
+    "highSpeed": [
+     {
+      "size": "1280x720",
+      "fps": [
+       "30-120",
+       "120-120",
+       "30-240",
+       "240-240"
+      ]
+     },
+     {
+      "size": "1920x1080",
+      "fps": [
+       "30-120",
+       "120-120",
+       "30-240",
+       "240-240"
+      ]
+     },
+     {
+      "size": "1920x824",
+      "fps": [
+       "30-120",
+       "120-120"
+      ]
+     }
+    ]
+   },
+   "zoomRatioRange": "1.0-8.0",
+   "maxDigitalZoom": 8,
+   "evRange": "-20-20",
+   "evStep": 0.10000000149011612,
+   "aeFpsRanges": [
+    "15-15",
+    "24-24",
+    "15-30",
+    "30-30",
+    "15-60",
+    "60-60"
+   ],
+   "afModes": [
+    "OFF",
+    "AUTO",
+    "MACRO",
+    "CONTINUOUS_VIDEO",
+    "CONTINUOUS_PICTURE"
+   ],
+   "awbModes": [
+    "AUTO",
+    "INCANDESCENT",
+    "FLUORESCENT",
+    "DAYLIGHT",
+    "CLOUDY_DAYLIGHT",
+    "OFF"
+   ],
+   "aeModes": [
+    "OFF",
+    "ON",
+    "ON_AUTO_FLASH",
+    "ON_ALWAYS_FLASH"
+   ],
+   "colorCorrectionModes": [
+    0,
+    1,
+    2
+   ],
+   "aePriorityModes": [],
+   "videoStabModes": [
+    "OFF",
+    "ON",
+    "PREVIEW_STABILIZATION"
+   ],
+   "flash": true,
+   "dynamicRangeProfiles": [
+    "STANDARD",
+    "HLG10"
+   ],
+   "colorSpaces": [
+    "SRGB",
+    "DISPLAY_P3",
+    "BT2020_HLG"
+   ],
+   "extensions": [
+    "FACE_RETOUCH",
+    "BOKEH",
+    "NIGHT"
+   ],
+   "sessionProbes": [
+    {
+     "name": "all",
+     "result": "NOT_TESTED",
+     "detail": "CameraDeviceSetup unsupported for 0"
+    }
+   ]
+  },
+  {
+   "id": "7",
+   "physicalOnly": true,
+   "parent": "0",
+   "facing": "BACK",
+   "hardwareLevel": "LIMITED",
+   "capabilities": [
+    "BACKWARD_COMPATIBLE",
+    "CONSTRAINED_HIGH_SPEED_VIDEO",
+    "RAW",
+    "MANUAL_SENSOR",
+    "MANUAL_POST_PROCESSING",
+    "PRIVATE_REPROCESSING",
+    "READ_SENSOR_SETTINGS",
+    "BURST_CAPTURE",
+    "DYNAMIC_RANGE_TEN_BIT",
+    "STREAM_USE_CASE",
+    "COLOR_SPACE_PROFILES"
+   ],
+   "physicalIds": [],
+   "sensor": {
+    "iso": "32-3200",
+    "exposureNs": "82896-117413040",
+    "maxFrameDurationNs": 117556350,
+    "physicalSizeMm": "5.712x4.284",
+    "pixelArray": "4080x3060",
+    "pixelArrayMaxRes": "4080x3060",
+    "cfa": "GRBG"
+   },
+   "lens": {
+    "focalMm": [
+     18.600000381469727
+    ],
+    "apertures": [
+     3.4000000953674316
+    ],
+    "equivMm": 112.71131896972656,
+    "minFocusDiopters": 1.25,
+    "focusCalibration": "APPROXIMATE",
+    "ois": true
+   },
+   "streams": {
+    "jpeg": [
+     "4080x3060",
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "3840x2160",
+     "3648x2052",
+     "2736x2736",
+     "3648x1704",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "yuv": [
+     "4080x3060",
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "3840x2160",
+     "3648x2052",
+     "2736x2736",
+     "3648x1704",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "priv": [
+     "4080x3060",
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "3840x2160",
+     "3648x2052",
+     "2736x2736",
+     "3648x1704",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "raw": [
+     "4080x3060"
+    ],
+    "heic": [],
+    "jpegR": [],
+    "maxResJpeg": [],
+    "maxResRaw": [],
+    "highSpeed": [
+     {
+      "size": "1280x720",
+      "fps": [
+       "30-120",
+       "120-120",
+       "30-240",
+       "240-240"
+      ]
+     },
+     {
+      "size": "1920x1080",
+      "fps": [
+       "30-120",
+       "120-120",
+       "30-240",
+       "240-240"
+      ]
+     },
+     {
+      "size": "1920x824",
+      "fps": [
+       "30-120",
+       "120-120"
+      ]
+     }
+    ]
+   },
+   "zoomRatioRange": "1.0-8.0",
+   "maxDigitalZoom": 8,
+   "evRange": "-20-20",
+   "evStep": 0.10000000149011612,
+   "aeFpsRanges": [
+    "15-15",
+    "15-24",
+    "24-24",
+    "15-25",
+    "25-25",
+    "15-30",
+    "30-30",
+    "15-60",
+    "60-60"
+   ],
+   "afModes": [
+    "OFF",
+    "AUTO",
+    "MACRO",
+    "CONTINUOUS_VIDEO",
+    "CONTINUOUS_PICTURE"
+   ],
+   "awbModes": [
+    "AUTO",
+    "INCANDESCENT",
+    "FLUORESCENT",
+    "DAYLIGHT",
+    "CLOUDY_DAYLIGHT",
+    "OFF"
+   ],
+   "aeModes": [
+    "OFF",
+    "ON",
+    "ON_AUTO_FLASH",
+    "ON_ALWAYS_FLASH"
+   ],
+   "colorCorrectionModes": [
+    0,
+    1,
+    2
+   ],
+   "aePriorityModes": [],
+   "videoStabModes": [
+    "OFF",
+    "ON",
+    "PREVIEW_STABILIZATION"
+   ],
+   "flash": true,
+   "dynamicRangeProfiles": [
+    "STANDARD",
+    "HLG10"
+   ],
+   "colorSpaces": [
+    "SRGB",
+    "DISPLAY_P3",
+    "BT2020_HLG"
+   ],
+   "extensions": [
+    "FACE_RETOUCH",
+    "BOKEH"
+   ],
+   "sessionProbes": [
+    {
+     "name": "all",
+     "result": "NOT_TESTED",
+     "detail": "CameraDeviceSetup unsupported for 0"
+    }
+   ]
+  },
+  {
+   "id": "1",
+   "physicalOnly": false,
+   "parent": null,
+   "facing": "FRONT",
+   "hardwareLevel": "FULL",
+   "capabilities": [
+    "BACKWARD_COMPATIBLE",
+    "CONSTRAINED_HIGH_SPEED_VIDEO",
+    "RAW",
+    "MANUAL_SENSOR",
+    "MANUAL_POST_PROCESSING",
+    "PRIVATE_REPROCESSING",
+    "READ_SENSOR_SETTINGS",
+    "BURST_CAPTURE",
+    "DYNAMIC_RANGE_TEN_BIT",
+    "STREAM_USE_CASE",
+    "COLOR_SPACE_PROFILES"
+   ],
+   "physicalIds": [],
+   "sensor": {
+    "iso": "25-3200",
+    "exposureNs": "91077-150006780",
+    "maxFrameDurationNs": 150121488,
+    "physicalSizeMm": "4.48x3.36",
+    "pixelArray": "4000x3000",
+    "pixelArrayMaxRes": null,
+    "cfa": "GRBG"
+   },
+   "lens": {
+    "focalMm": [
+     3.299999952316284
+    ],
+    "apertures": [
+     2.200000047683716
+    ],
+    "equivMm": 25.496389389038086,
+    "minFocusDiopters": 5,
+    "focusCalibration": "APPROXIMATE",
+    "ois": false
+   },
+   "streams": {
+    "jpeg": [
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "3840x2160",
+     "2736x2736",
+     "3648x2048",
+     "3648x1640",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "yuv": [
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "3840x2160",
+     "2736x2736",
+     "3648x2048",
+     "3648x1640",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "priv": [
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "3840x2160",
+     "2736x2736",
+     "3648x2048",
+     "3648x1640",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "raw": [
+     "4000x3000"
+    ],
+    "heic": [],
+    "jpegR": [
+     "4000x3000",
+     "3648x2736",
+     "4000x2252",
+     "3840x2160",
+     "2736x2736",
+     "3648x2048",
+     "3648x1640",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "maxResJpeg": [],
+    "maxResRaw": [],
+    "highSpeed": [
+     {
+      "size": "1280x720",
+      "fps": [
+       "30-120",
+       "120-120"
+      ]
+     },
+     {
+      "size": "1920x1080",
+      "fps": [
+       "30-120",
+       "120-120"
+      ]
+     },
+     {
+      "size": "1920x824",
+      "fps": [
+       "30-120",
+       "120-120"
+      ]
+     }
+    ]
+   },
+   "zoomRatioRange": "1.0-8.0",
+   "maxDigitalZoom": 8,
+   "evRange": "-20-20",
+   "evStep": 0.10000000149011612,
+   "aeFpsRanges": [
+    "15-15",
+    "24-24",
+    "15-30",
+    "30-30",
+    "15-60",
+    "60-60"
+   ],
+   "afModes": [
+    "OFF",
+    "AUTO",
+    "MACRO",
+    "CONTINUOUS_VIDEO",
+    "CONTINUOUS_PICTURE"
+   ],
+   "awbModes": [
+    "AUTO",
+    "INCANDESCENT",
+    "FLUORESCENT",
+    "DAYLIGHT",
+    "CLOUDY_DAYLIGHT",
+    "OFF"
+   ],
+   "aeModes": [
+    "OFF",
+    "ON"
+   ],
+   "colorCorrectionModes": [
+    0,
+    1,
+    2
+   ],
+   "aePriorityModes": [
+    0
+   ],
+   "videoStabModes": [
+    "OFF"
+   ],
+   "flash": false,
+   "dynamicRangeProfiles": [
+    "STANDARD",
+    "HLG10"
+   ],
+   "colorSpaces": [
+    "SRGB",
+    "DISPLAY_P3",
+    "BT2020_HLG"
+   ],
+   "extensions": [
+    "FACE_RETOUCH",
+    "BOKEH",
+    "NIGHT"
+   ],
+   "sessionProbes": [
+    {
+     "name": "all",
+     "result": "NOT_TESTED",
+     "detail": "CameraDeviceSetup unsupported for 1"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "physicalOnly": false,
+   "parent": null,
+   "facing": "BACK",
+   "hardwareLevel": "LIMITED",
+   "capabilities": [
+    "BACKWARD_COMPATIBLE",
+    "RAW",
+    "CONSTRAINED_HIGH_SPEED_VIDEO",
+    "MANUAL_POST_PROCESSING",
+    "PRIVATE_REPROCESSING",
+    "READ_SENSOR_SETTINGS",
+    "MANUAL_SENSOR",
+    "BURST_CAPTURE",
+    "YUV_REPROCESSING",
+    "DYNAMIC_RANGE_TEN_BIT",
+    "STREAM_USE_CASE",
+    "COLOR_SPACE_PROFILES"
+   ],
+   "physicalIds": [],
+   "sensor": {
+    "iso": "48-3200",
+    "exposureNs": "49856-150001124",
+    "maxFrameDurationNs": 150100836,
+    "physicalSizeMm": "5.6x4.2",
+    "pixelArray": "4000x3000",
+    "pixelArrayMaxRes": null,
+    "cfa": "RGGB"
+   },
+   "lens": {
+    "focalMm": [
+     2.200000047683716
+    ],
+    "apertures": [
+     2.200000047683716
+    ],
+    "equivMm": 13.598074913024902,
+    "minFocusDiopters": 20,
+    "focusCalibration": "APPROXIMATE",
+    "ois": false
+   },
+   "streams": {
+    "jpeg": [
+     "4000x3000",
+     "4000x3000",
+     "4000x2252",
+     "4000x2252",
+     "2992x2992",
+     "3840x2160",
+     "4000x1848",
+     "4000x1716",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "yuv": [
+     "4000x3000",
+     "4000x3000",
+     "4000x2252",
+     "4000x2252",
+     "2992x2992",
+     "3840x2160",
+     "4000x1848",
+     "4000x1716",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "priv": [
+     "4000x3000",
+     "4000x3000",
+     "4000x2252",
+     "4000x2252",
+     "2992x2992",
+     "3840x2160",
+     "4000x1848",
+     "4000x1716",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "raw": [
+     "4000x3000"
+    ],
+    "heic": [],
+    "jpegR": [
+     "4000x3000",
+     "4000x3000",
+     "4000x2252",
+     "4000x2252",
+     "2992x2992",
+     "3840x2160",
+     "4000x1848",
+     "4000x1716",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "maxResJpeg": [],
+    "maxResRaw": [],
+    "highSpeed": [
+     {
+      "size": "1280x720",
+      "fps": [
+       "30-120",
+       "120-120",
+       "30-240",
+       "240-240"
+      ]
+     },
+     {
+      "size": "1920x1080",
+      "fps": [
+       "30-120",
+       "120-120",
+       "30-240",
+       "240-240"
+      ]
+     },
+     {
+      "size": "1920x824",
+      "fps": [
+       "30-120",
+       "120-120"
+      ]
+     }
+    ]
+   },
+   "zoomRatioRange": "1.0-8.0",
+   "maxDigitalZoom": 8,
+   "evRange": "-20-20",
+   "evStep": 0.10000000149011612,
+   "aeFpsRanges": [
+    "15-15",
+    "24-24",
+    "15-30",
+    "30-30",
+    "15-60",
+    "60-60"
+   ],
+   "afModes": [
+    "OFF",
+    "AUTO",
+    "MACRO",
+    "CONTINUOUS_VIDEO",
+    "CONTINUOUS_PICTURE"
+   ],
+   "awbModes": [
+    "AUTO",
+    "INCANDESCENT",
+    "FLUORESCENT",
+    "DAYLIGHT",
+    "CLOUDY_DAYLIGHT",
+    "OFF"
+   ],
+   "aeModes": [
+    "OFF",
+    "ON"
+   ],
+   "colorCorrectionModes": [
+    0,
+    1,
+    2
+   ],
+   "aePriorityModes": [
+    0
+   ],
+   "videoStabModes": [
+    "OFF",
+    "ON",
+    "PREVIEW_STABILIZATION"
+   ],
+   "flash": false,
+   "dynamicRangeProfiles": [
+    "STANDARD",
+    "HLG10"
+   ],
+   "colorSpaces": [
+    "SRGB",
+    "DISPLAY_P3",
+    "BT2020_HLG"
+   ],
+   "extensions": [
+    "FACE_RETOUCH",
+    "BOKEH",
+    "NIGHT"
+   ],
+   "sessionProbes": [
+    {
+     "name": "all",
+     "result": "NOT_TESTED",
+     "detail": "CameraDeviceSetup unsupported for 2"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "physicalOnly": false,
+   "parent": null,
+   "facing": "FRONT",
+   "hardwareLevel": "FULL",
+   "capabilities": [
+    "BACKWARD_COMPATIBLE",
+    "CONSTRAINED_HIGH_SPEED_VIDEO",
+    "RAW",
+    "MANUAL_SENSOR",
+    "MANUAL_POST_PROCESSING",
+    "PRIVATE_REPROCESSING",
+    "READ_SENSOR_SETTINGS",
+    "BURST_CAPTURE",
+    "DYNAMIC_RANGE_TEN_BIT",
+    "STREAM_USE_CASE",
+    "COLOR_SPACE_PROFILES"
+   ],
+   "physicalIds": [],
+   "sensor": {
+    "iso": "25-3200",
+    "exposureNs": "49203-150035550",
+    "maxFrameDurationNs": 150150280,
+    "physicalSizeMm": "3.79904x2.84928",
+    "pixelArray": "3392x2544",
+    "pixelArrayMaxRes": null,
+    "cfa": "GRBG"
+   },
+   "lens": {
+    "focalMm": [
+     3.299999952316284
+    ],
+    "apertures": [
+     2.200000047683716
+    ],
+    "equivMm": 30.066495895385742,
+    "minFocusDiopters": 5,
+    "focusCalibration": "APPROXIMATE",
+    "ois": false
+   },
+   "streams": {
+    "jpeg": [
+     "3392x2544",
+     "3392x1908",
+     "2208x2208",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1440x980",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "yuv": [
+     "3392x2544",
+     "3392x1908",
+     "2208x2208",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1440x980",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "priv": [
+     "3392x2544",
+     "3392x1908",
+     "2208x2208",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1440x980",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "raw": [
+     "3392x2544"
+    ],
+    "heic": [],
+    "jpegR": [
+     "3392x2544",
+     "3392x1908",
+     "2208x2208",
+     "2560x1440",
+     "1920x1440",
+     "2400x1080",
+     "2336x1080",
+     "1920x1080",
+     "1920x824",
+     "1440x1080",
+     "1440x980",
+     "1232x1008",
+     "1088x1088",
+     "1280x720",
+     "960x720",
+     "720x480",
+     "640x480",
+     "640x360",
+     "352x288",
+     "320x240",
+     "176x144"
+    ],
+    "maxResJpeg": [],
+    "maxResRaw": [],
+    "highSpeed": [
+     {
+      "size": "1280x720",
+      "fps": [
+       "30-120",
+       "120-120"
+      ]
+     },
+     {
+      "size": "1920x1080",
+      "fps": [
+       "30-120",
+       "120-120"
+      ]
+     },
+     {
+      "size": "1920x824",
+      "fps": [
+       "30-120",
+       "120-120"
+      ]
+     }
+    ]
+   },
+   "zoomRatioRange": "1.0-8.0",
+   "maxDigitalZoom": 8,
+   "evRange": "-20-20",
+   "evStep": 0.10000000149011612,
+   "aeFpsRanges": [
+    "15-15",
+    "24-24",
+    "15-30",
+    "30-30",
+    "15-60",
+    "60-60"
+   ],
+   "afModes": [
+    "OFF",
+    "AUTO",
+    "MACRO",
+    "CONTINUOUS_VIDEO",
+    "CONTINUOUS_PICTURE"
+   ],
+   "awbModes": [
+    "AUTO",
+    "INCANDESCENT",
+    "FLUORESCENT",
+    "DAYLIGHT",
+    "CLOUDY_DAYLIGHT",
+    "OFF"
+   ],
+   "aeModes": [
+    "OFF",
+    "ON"
+   ],
+   "colorCorrectionModes": [
+    0,
+    1,
+    2
+   ],
+   "aePriorityModes": [
+    0
+   ],
+   "videoStabModes": [
+    "OFF"
+   ],
+   "flash": false,
+   "dynamicRangeProfiles": [
+    "STANDARD",
+    "HLG10"
+   ],
+   "colorSpaces": [
+    "SRGB",
+    "DISPLAY_P3",
+    "BT2020_HLG"
+   ],
+   "extensions": [
+    "FACE_RETOUCH",
+    "BOKEH",
+    "NIGHT"
+   ],
+   "sessionProbes": [
+    {
+     "name": "all",
+     "result": "NOT_TESTED",
+     "detail": "CameraDeviceSetup unsupported for 3"
+    }
+   ]
+  }
+ ],
+ "cameraX": [
+  {
+   "cameraId": "0",
+   "facing": 1,
+   "intrinsicZoom": 1,
+   "physicalIds": [
+    "2",
+    "5",
+    "6",
+    "7"
+   ],
+   "dynamicRanges": [
+    "SDR",
+    "HLG_10_BIT"
+   ],
+   "qualitiesSdr": [
+    "UHD",
+    "FHD",
+    "HD",
+    "SD"
+   ],
+   "qualitiesHlg": [
+    "UHD",
+    "FHD",
+    "HD",
+    "SD"
+   ],
+   "qualityResolutions": {
+    "UHD": "3840x2160",
+    "FHD": "1920x1080",
+    "HD": "1280x720",
+    "SD": "720x480"
+   },
+   "highSpeedQualities": [],
+   "frameRateRanges": [
+    "15-15",
+    "24-24",
+    "15-30",
+    "30-30",
+    "15-60",
+    "60-60"
+   ],
+   "stillFormats": [
+    "JPEG",
+    "JPEG_ULTRA_HDR",
+    "RAW",
+    "RAW_JPEG"
+   ],
+   "zsl": false,
+   "stabilization": true,
+   "torchStrength": false,
+   "lowLightBoost": false,
+   "extensions": [
+    "NIGHT",
+    "BOKEH",
+    "FACE_RETOUCH"
+   ],
+   "flash": true,
+   "sessionProbes": [
+    {
+     "name": "Preview + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + RAW+JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Ultra HDR",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD + Analysis",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD stabilised",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD @25",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD @60",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD HLG10 @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD HLG10 @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD HLG10 @60",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD + Analysis",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD stabilised",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @25",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD HLG10 @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD HLG10 @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD HLG10 @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD + Analysis",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD stabilised",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @25",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD HLG10 @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD HLG10 @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD HLG10 @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    }
+   ]
+  },
+  {
+   "cameraId": "1",
+   "facing": 0,
+   "intrinsicZoom": 1,
+   "physicalIds": [],
+   "dynamicRanges": [
+    "SDR",
+    "HLG_10_BIT"
+   ],
+   "qualitiesSdr": [
+    "UHD",
+    "FHD",
+    "HD",
+    "SD"
+   ],
+   "qualitiesHlg": [
+    "UHD",
+    "FHD",
+    "HD",
+    "SD"
+   ],
+   "qualityResolutions": {
+    "UHD": "3840x2160",
+    "FHD": "1920x1080",
+    "HD": "1280x720",
+    "SD": "720x480"
+   },
+   "highSpeedQualities": [],
+   "frameRateRanges": [
+    "15-15",
+    "24-24",
+    "15-30",
+    "30-30",
+    "15-60",
+    "60-60"
+   ],
+   "stillFormats": [
+    "JPEG",
+    "JPEG_ULTRA_HDR",
+    "RAW",
+    "RAW_JPEG"
+   ],
+   "zsl": false,
+   "stabilization": false,
+   "torchStrength": false,
+   "lowLightBoost": false,
+   "extensions": [
+    "NIGHT",
+    "BOKEH",
+    "FACE_RETOUCH"
+   ],
+   "flash": false,
+   "sessionProbes": [
+    {
+     "name": "Preview + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + RAW+JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Ultra HDR",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD + Analysis",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD stabilised",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD @25",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD @60",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD HLG10 @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD HLG10 @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video UHD HLG10 @60",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD + Analysis",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD stabilised",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @25",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD HLG10 @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD HLG10 @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD HLG10 @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD + Analysis",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD stabilised",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @25",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD HLG10 @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD HLG10 @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD HLG10 @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    }
+   ]
+  },
+  {
+   "cameraId": "2",
+   "facing": 1,
+   "intrinsicZoom": 0.6896551847457886,
+   "physicalIds": [],
+   "dynamicRanges": [
+    "SDR",
+    "HLG_10_BIT"
+   ],
+   "qualitiesSdr": [
+    "FHD",
+    "HD",
+    "SD"
+   ],
+   "qualitiesHlg": [
+    "FHD",
+    "HD",
+    "SD"
+   ],
+   "qualityResolutions": {
+    "FHD": "1920x1080",
+    "HD": "1280x720",
+    "SD": "720x480"
+   },
+   "highSpeedQualities": [],
+   "frameRateRanges": [
+    "15-15",
+    "24-24",
+    "15-30",
+    "30-30",
+    "15-60",
+    "60-60"
+   ],
+   "stillFormats": [
+    "JPEG",
+    "JPEG_ULTRA_HDR",
+    "RAW",
+    "RAW_JPEG"
+   ],
+   "zsl": false,
+   "stabilization": true,
+   "torchStrength": false,
+   "lowLightBoost": false,
+   "extensions": [
+    "NIGHT",
+    "BOKEH",
+    "FACE_RETOUCH"
+   ],
+   "flash": false,
+   "sessionProbes": [
+    {
+     "name": "Preview + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + RAW+JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Ultra HDR",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD + Analysis",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD stabilised",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @25",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD HLG10 @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD HLG10 @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD HLG10 @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD + Analysis",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD stabilised",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @25",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD HLG10 @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD HLG10 @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD HLG10 @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    }
+   ]
+  },
+  {
+   "cameraId": "3",
+   "facing": 0,
+   "intrinsicZoom": 1.1521738767623901,
+   "physicalIds": [],
+   "dynamicRanges": [
+    "SDR",
+    "HLG_10_BIT"
+   ],
+   "qualitiesSdr": [
+    "FHD",
+    "HD",
+    "SD"
+   ],
+   "qualitiesHlg": [
+    "FHD",
+    "HD",
+    "SD"
+   ],
+   "qualityResolutions": {
+    "FHD": "1920x1080",
+    "HD": "1280x720",
+    "SD": "720x480"
+   },
+   "highSpeedQualities": [],
+   "frameRateRanges": [
+    "15-15",
+    "24-24",
+    "15-30",
+    "30-30",
+    "15-60",
+    "60-60"
+   ],
+   "stillFormats": [
+    "JPEG",
+    "JPEG_ULTRA_HDR",
+    "RAW",
+    "RAW_JPEG"
+   ],
+   "zsl": false,
+   "stabilization": false,
+   "torchStrength": false,
+   "lowLightBoost": false,
+   "extensions": [
+    "NIGHT",
+    "BOKEH",
+    "FACE_RETOUCH"
+   ],
+   "flash": false,
+   "sessionProbes": [
+    {
+     "name": "Preview + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + RAW+JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Ultra HDR",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD + Analysis",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD stabilised",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @25",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD HLG10 @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD HLG10 @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video FHD HLG10 @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD + JPEG",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD + Analysis",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD stabilised",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @25",
+     "result": "UNSUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD HLG10 @24",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD HLG10 @30",
+     "result": "SUPPORTED",
+     "detail": ""
+    },
+    {
+     "name": "Preview + Video HD HLG10 @60",
+     "result": "SUPPORTED",
+     "detail": ""
+    }
+   ]
+  }
+ ],
+ "encoders": [
+  {
+   "name": "c2.qti.avc.encoder",
+   "mime": "video\/avc",
+   "hardware": true,
+   "maxSize": "8192x8192",
+   "profiles": [
+    "Baseline",
+    "p65536",
+    "Main",
+    "High",
+    "p524288"
+   ],
+   "bitrate": "1-220000000",
+   "fps4k": "1.0-120.88888888888889",
+   "fps1080": "1.0-480.0"
+  },
+  {
+   "name": "OMX.qcom.video.encoder.avc",
+   "mime": "video\/avc",
+   "hardware": true,
+   "maxSize": "8192x8192",
+   "profiles": [
+    "Baseline",
+    "p65536",
+    "Main",
+    "High",
+    "p524288"
+   ],
+   "bitrate": "1-220000000",
+   "fps4k": "1.0-120.88888888888889",
+   "fps1080": "1.0-480.0"
+  },
+  {
+   "name": "c2.qti.hevc.encoder",
+   "mime": "video\/hevc",
+   "hardware": true,
+   "maxSize": "8192x8192",
+   "profiles": [
+    "Main",
+    "p4",
+    "Main10",
+    "Main10HDR10",
+    "Main10HDR10Plus"
+   ],
+   "bitrate": "1-160000000",
+   "fps4k": "1.0-120.88888888888889",
+   "fps1080": "1.0-480.0"
+  },
+  {
+   "name": "OMX.qcom.video.encoder.hevc",
+   "mime": "video\/hevc",
+   "hardware": true,
+   "maxSize": "8192x8192",
+   "profiles": [
+    "Main",
+    "p4",
+    "Main10",
+    "Main10HDR10",
+    "Main10HDR10Plus"
+   ],
+   "bitrate": "1-160000000",
+   "fps4k": "1.0-120.88888888888889",
+   "fps1080": "1.0-480.0"
+  },
+  {
+   "name": "c2.qti.hevc.encoder.cq",
+   "mime": "video\/hevc",
+   "hardware": true,
+   "maxSize": "512x512",
+   "profiles": [
+    "Main",
+    "p4",
+    "Main10",
+    "Main10HDR10",
+    "Main10HDR10Plus"
+   ],
+   "bitrate": "1-160000000",
+   "fps4k": null,
+   "fps1080": null
+  },
+  {
+   "name": "OMX.qcom.video.encoder.hevc.cq",
+   "mime": "video\/hevc",
+   "hardware": true,
+   "maxSize": "512x512",
+   "profiles": [
+    "Main",
+    "p4",
+    "Main10",
+    "Main10HDR10",
+    "Main10HDR10Plus"
+   ],
+   "bitrate": "1-160000000",
+   "fps4k": null,
+   "fps1080": null
+  },
+  {
+   "name": "c2.qti.hevc.encoder.hdr",
+   "mime": "video\/hevc",
+   "hardware": true,
+   "maxSize": "4096x2176",
+   "profiles": [
+    "Main",
+    "p4",
+    "Main10",
+    "Main10HDR10",
+    "Main10HDR10Plus"
+   ],
+   "bitrate": "1-160000000",
+   "fps4k": "1.0-60.44444444444444",
+   "fps1080": "1.0-240.0"
+  },
+  {
+   "name": "c2.android.apv.encoder",
+   "mime": "video\/apv",
+   "hardware": false,
+   "maxSize": "1920x1920",
+   "profiles": [
+    "p1"
+   ],
+   "bitrate": "1-240000000",
+   "fps4k": null,
+   "fps1080": "1.0-960.0"
+  },
+  {
+   "name": "c2.android.av1.encoder",
+   "mime": "video\/av01",
+   "hardware": false,
+   "maxSize": "1920x1920",
+   "profiles": [
+    "p1",
+    "p2"
+   ],
+   "bitrate": "1-20000000",
+   "fps4k": null,
+   "fps1080": null
+  },
+  {
+   "name": "c2.android.avc.encoder",
+   "mime": "video\/avc",
+   "hardware": false,
+   "maxSize": "2048x2048",
+   "profiles": [
+    "Baseline",
+    "p65536",
+    "Main"
+   ],
+   "bitrate": "1-12000000",
+   "fps4k": null,
+   "fps1080": "1.0-30.11764705882353"
+  },
+  {
+   "name": "OMX.google.h264.encoder",
+   "mime": "video\/avc",
+   "hardware": false,
+   "maxSize": "2048x2048",
+   "profiles": [
+    "Baseline",
+    "p65536",
+    "Main"
+   ],
+   "bitrate": "1-12000000",
+   "fps4k": null,
+   "fps1080": "1.0-30.11764705882353"
+  },
+  {
+   "name": "c2.android.hevc.encoder",
+   "mime": "video\/hevc",
+   "hardware": false,
+   "maxSize": "512x512",
+   "profiles": [
+    "Main",
+    "p4"
+   ],
+   "bitrate": "1-10000000",
+   "fps4k": null,
+   "fps1080": null
+  }
+ ]
+}
